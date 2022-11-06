@@ -3,46 +3,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta property="og:image" content="https://i.ibb.co/M8S0Zzj/live-streaming.png" itemprop="thumbnailUrl">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>%s</title>
-    <link rel="stylesheet" type='text/css' href="https://drive------google.com/uc?export=view&id=1pVLG4gZy7jdow3sO-wFS06aP_A9QX0O6">
+    <link rel="stylesheet" type='text/css' href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Delius">
-    
+  
+
 </head>
 
-
+<body class='cyber'>
     <header>
-        <marquee bgcolor="#f7f305"
         <div class="toogle"></div>
         <div id="file-name" class="cyber">
-            %s
         </div>
-        </marquee>
     </header>
 
-    <div class="container">
-        <a href=%s>
-            <button class="cybr-btn">
-                Download
-                <span aria-hidden>_</span>
-                <span aria-hidden class="cybr-btn__glitch">_404 Error</span>
-                <span aria-hidden class="cybr-btn__tag">_%s</span>
-            </button>
-        </a>
-    </div>
+    <div class="bg"></div>
 
+<div class="bg bg2"></div>
 
+<div class="bg bg3"></div>
 
+<div class="content">
 
-   <footer>
-	   <center><h4>Video not playing ? possibly because your browser or the player doesn't support codec please download and watch :D</h4></center><p>
-	   <center><h2><b>(c)ADARSH GOEL</b></H2></center>
-	   
-    </footer>
-    <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
+  <h1>Sliding Diagonals Background Effect</h1>
+
+</div>
+    
+    
+    <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
 	<script>
         const controls = [
               'play-large',
@@ -69,6 +59,11 @@
         const title = document.querySelector('#file-name');
         const footer = document.querySelector('footer');
         const toogle = document.querySelector('.toogle');
+        toogle.onclick = () => {
+            body.classList.toggle('dark')
+            footer.classList.toggle('dark')
+            title.classList.toggle('dark')
+        }
     </script>
 </body>
 </html>
